@@ -17,6 +17,7 @@ int main()
         {
             printf("*");
         }
+        sp--;
         printf("\n");
     }
     return 0;
