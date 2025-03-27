@@ -1,4 +1,3 @@
-// Your code here...
 #include<stdio.h>
 int main()
 {
@@ -14,7 +13,7 @@ int main()
     int b[n];
     for(int i=0;i<n;i++)
     {
-        b[n-i-1]=a[i];
+        b[i]=a[n-i-1];
     }
     for(int i=0;i<n;i++)
         printf("%d\n",b[i]);
